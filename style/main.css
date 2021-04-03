@@ -1,0 +1,229 @@
+.A-line {
+	/* width: 44.062rem;
+	height: 70.375rem;
+	padding: 5rem 4.063rem 29.597rem 5rem; */
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	position: absolute;
+	z-index: 1;
+}
+.dm-sign {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+.dm-left {
+	width: 50%;
+	height: 100%;
+	background-color: #f32d50;
+}
+.dm-right {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+body {
+	margin: 0;
+}
+.Subtract {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	flex-grow: 0;
+	object-fit: contain;
+	opacity: 1;
+	z-index: 10;
+}
+.dm-container {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* span.msg,
+span.choose {
+	color: #555;
+	padding: 5px 0 10px;
+	display: inherit;
+} */
+.dm1-container {
+	width: 100%;
+	margin: 20px auto 0;
+	text-align: center;
+}
+
+/*Styling Selectbox*/
+.dm-dropdown {
+	width: 60px;
+	display: inline-block;
+	background-color: #fff;
+	float: right;
+	transition: all 0.5s ease;
+	position: relative;
+	font-size: 14px;
+	color: #a5a1a1;
+	height: 100%;
+	text-align: left;
+	gap: 10px;
+	padding: 0 1.25rem;
+	border-radius: 24px;
+	box-shadow: 0 24px 32px 8px rgba(25, 32, 56, 0.04);
+
+	/* background-color: #ffffff; */
+}
+.dm-dropdown .select {
+	cursor: pointer;
+	display: block;
+	padding: 10px 0 10px 0;
+}
+.dm-dropdown .select > i {
+	font-size: 13px;
+	color: #888;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	float: left;
+	line-height: 20px;
+}
+.dm-dropdown:hover {
+	box-shadow: 0 0 4px rgb(204, 204, 204);
+}
+.dm-dropdown:active {
+	background-color: #f8f8f8;
+	border-radius: 24px 24px 0 0;
+}
+.dm-dropdown.active:hover,
+.dm-dropdown.active {
+	box-shadow: 0 0 4px rgb(204, 204, 204);
+	border-radius: 24px 24px 0 0;
+	background-color: #f8f8f8;
+}
+.dm-dropdown.active .select > i {
+	transform: rotate(-90deg);
+}
+.dm-dropdown .dm-dropdown-menu {
+	position: absolute;
+	background-color: #fff;
+	width: 100%;
+	left: 0;
+	margin-top: 1px;
+	box-shadow: 0 1px 2px rgb(204, 204, 204);
+	border-radius: 0 0 24px 24px;
+	overflow: hidden;
+	display: none;
+	max-height: 144px;
+	overflow-y: auto;
+	z-index: 9;
+}
+.dm-dropdown .dm-dropdown-menu li {
+	padding: 10px;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.dm-dropdown .dm-dropdown-menu {
+	padding: 0;
+	list-style: none;
+}
+.dm-dropdown .dm-dropdown-menu li:hover {
+	background-color: #f2f2f2;
+}
+.dm-dropdown .dm-dropdown-menu li:active {
+	background-color: #e2e2e2;
+}
+.dm-sign-up {
+	width: 100%;
+	height: auto;
+	font-family: Poppins;
+	font-size: 2.4rem;
+	margin: 0;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: -1px;
+	text-align: left;
+	color: #000000;
+}
+.dm-Already-a-user- {
+	width: 100px;
+	flex-grow: 0;
+	font-family: Inter;
+	font-size: 0.75rem;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: normal;
+	text-align: left;
+	color: #808191;
+	margin: 0;
+}
+.dm-login-now {
+	width: 100px;
+	margin: 0;
+	flex-grow: 0;
+	font-family: Inter;
+	font-size: 0.75rem;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: normal;
+	text-align: left;
+	color: #fe346e;
+}
+.dm-a-n {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.dm-username {
+	width: 40px;
+
+	flex-grow: 0;
+
+	font-family: Inter;
+	font-size: 0.9rem;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	text-align: left;
+	color: #b2b3bd;
+	margin: 10px 0 0;
+}
+.dm-inside-container {
+	width: 85%;
+}
+.dm-username-box-text {
+	height: 3.5rem;
+	flex-grow: 1;
+	font-family: Inter;
+	font-size: 1rem;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.13;
+	letter-spacing: normal;
+	text-align: left;
+	color: #11142d;
+}
+.dm-username-box {
+	width: 100%;
+	height: 35px;
+	flex-grow: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 16px;
+	margin: 10px 0 0;
+
+	border-radius: 16px;
+	border: solid 2px #ff385c;
+	background-color: white;
+}
