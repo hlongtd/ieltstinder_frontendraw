@@ -1,0 +1,93 @@
+
+@media only screen and (min-width:1280px)
+{
+
+}
+    * {
+        box-sizing: border-box;
+        
+      }
+      
+   
+      .column {
+        float: left;
+        padding: 10px;
+        width: 45rem;
+        height: 71rem;
+        padding: 5rem 4.063rem 29.597rem 5rem;
+        
+      }
+      
+      .left {
+        width: 50%;
+        background-color: #f32d50;
+       
+      }
+
+
+      #loko
+      {
+            width: 13.875rem;
+            height: 3.216rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 128px;
+            margin: 0 21.125rem 8rem 0;
+            padding: 0;
+            object-fit: contain;
+      }
+
+    .btn
+    {
+     
+    width: 16rem;
+    height: 4rem;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0.3rem 2rem;
+    border-radius: 50px;
+    
+
+
+
+    /* Text */
+
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: var(--brand-impress-pinky);
+
+    }
+
+      
+
+
+
+    
+      .right {
+        width: 50%;
+        background-color: purple;
+      }
+
+       
+
+
+
+
+
+    
+
+
+   
