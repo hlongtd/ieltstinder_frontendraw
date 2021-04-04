@@ -5,15 +5,15 @@
 }
     * {
         box-sizing: border-box;
-        
+        margin: 0px;
       }
       
    
       .column {
         float: left;
         padding: 10px;
-        width: 45rem;
-        height: 71rem;
+        width: 50%;
+        height: 100%;
         padding: 5rem 4.063rem 29.597rem 5rem;
         
       }
@@ -53,6 +53,7 @@
     padding: 0.3rem 2rem;
     border-radius: 50px;
     
+    
 
 
 
@@ -67,23 +68,34 @@
     line-height: 4;
     letter-spacing: 0.48px;
     text-align: left;
-    color: var(--brand-impress-pinky);
+    color: #ff385c;
+    background-color: #fff;
 
     }
-
-      
-
-
-
-    
       .right {
         width: 50%;
         background-color: purple;
       }
 
-       
+    .row
+    {
+      width:100vw ;
+      height: 100vh;
+    }
 
+    .hand {
+      display: inline-block;
+      width: 55%;
+      position: relative;
+      bottom: 675px;
+      left: 245px;
+  }
 
+  .a2{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
 
 
 
