@@ -1,7 +1,7 @@
 $(".dm-dropdown").click(function () {
 	$(this).attr("tabindex", 1).focus();
 	$(this).toggleClass("active");
-	$(this).find(".dm-dropdown-menu").slideToggle(300);
+	$(this).find(".dm-dropdown-menu").slideToggle(100);
 });
 $(".dm-dropdown").focusout(function () {
 	$(this).removeClass("active");
